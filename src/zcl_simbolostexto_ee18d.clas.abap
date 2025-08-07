@@ -1,0 +1,26 @@
+CLASS zcl_simbolostexto_ee18d DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+
+  INTERFACES if_oo_adt_classrun."*INTERFACE PARA PODER IMPRIMIR POR PANTALLA ES ESTE ENLACE
+
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_simbolostexto_ee18d IMPLEMENTATION.
+
+  METHOD if_oo_adt_classrun~main.
+
+out->write( TEXT-001 ).
+
+  ENDMETHOD.
+
+
+
+ENDCLASS.
