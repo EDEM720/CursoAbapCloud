@@ -349,6 +349,7 @@ CLASS zcl_tablas_ee18d IMPLEMENTATION.
     ENDLOOP.
     out->write( data = lt_flights name = 'DESPUES/ lt_flights' ).
 
+" ES NECESARIO AHCER
   ENDMETHOD.
 
 ENDCLASS.
