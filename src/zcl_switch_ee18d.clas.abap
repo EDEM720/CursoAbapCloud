@@ -11,7 +11,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_switch_ee18d IMPLEMENTATION.
+CLASS ZCL_SWITCH_EE18D IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 
 
@@ -33,5 +35,4 @@ CLASS zcl_switch_ee18d IMPLEMENTATION.
 
 
   ENDMETHOD.
-
 ENDCLASS.

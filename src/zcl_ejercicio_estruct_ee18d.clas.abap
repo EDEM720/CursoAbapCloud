@@ -34,7 +34,10 @@ CLASS zcl_ejercicio_estruct_ee18d DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zcl_ejercicio_estruct_ee18d IMPLEMENTATION.
+
+
+CLASS ZCL_EJERCICIO_ESTRUCT_EE18D IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 ***** Comenzamos haciendo la estructura anidada con el TYPE por que necesitamos varias estructuras
@@ -120,5 +123,4 @@ CLASS zcl_ejercicio_estruct_ee18d IMPLEMENTATION.
     out->write( 'estoy aqui ' ).
 
   ENDMETHOD.
-
 ENDCLASS.

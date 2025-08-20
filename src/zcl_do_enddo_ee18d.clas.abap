@@ -12,7 +12,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_do_enddo_ee18d IMPLEMENTATION.
+CLASS ZCL_DO_ENDDO_EE18D IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 
 
@@ -118,6 +120,4 @@ CLASS zcl_do_enddo_ee18d IMPLEMENTATION.
     ENDDO.
 
   ENDMETHOD.
-
-
 ENDCLASS.

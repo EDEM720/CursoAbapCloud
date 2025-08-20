@@ -13,7 +13,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_constante_ee18d IMPLEMENTATION.
+CLASS ZCL_CONSTANTE_EE18D IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 
 *CONSTANTS: lc_pais TYPE string VALUE 'España',
@@ -66,5 +68,4 @@ out->write( lv_val1 ).
 
 CLEAR lv_val1.
   ENDMETHOD.
-
 ENDCLASS.

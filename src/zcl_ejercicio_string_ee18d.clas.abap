@@ -12,7 +12,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_ejercicio_string_ee18d IMPLEMENTATION.
+CLASS ZCL_EJERCICIO_STRING_EE18D IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 
 *  *************** El programa debe:
@@ -80,5 +82,4 @@ CLASS zcl_ejercicio_string_ee18d IMPLEMENTATION.
 
 
   ENDMETHOD.
-
 ENDCLASS.

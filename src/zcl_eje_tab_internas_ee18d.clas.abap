@@ -11,7 +11,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_eje_tab_internas_ee18d IMPLEMENTATION.
+CLASS ZCL_EJE_TAB_INTERNAS_EE18D IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 *Una biblioteca quiere guardar información sobre los libros que tiene. Para ello, crea un programa que:
 *Defina un tipo de estructura ty_libro con estos campos:
@@ -92,5 +94,4 @@ CLASS zcl_eje_tab_internas_ee18d IMPLEMENTATION.
     out->write( data = lt_agencias name = `Después de la anonimización` ).
 
   ENDMETHOD.
-
 ENDCLASS.

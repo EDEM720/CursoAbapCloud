@@ -12,7 +12,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_variables_ee18d IMPLEMENTATION.
+CLASS ZCL_VARIABLES_EE18D IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 DATA: lv_string TYPE string VALUE 'Pedro',
       lv_date1 TYPE d ,
@@ -92,5 +94,4 @@ out->write( lv_variable_linea * lv_variable_linea / lv_div ).
 
 
   ENDMETHOD.
-
 ENDCLASS.

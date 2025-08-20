@@ -11,7 +11,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_tablas_ee18d IMPLEMENTATION.
+CLASS ZCL_TABLAS_EE18D IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 *    TYPES: BEGIN OF ty_persona,
 *             nombre TYPE string,
@@ -351,5 +353,4 @@ CLASS zcl_tablas_ee18d IMPLEMENTATION.
 
 " ES NECESARIO AHCER
   ENDMETHOD.
-
 ENDCLASS.

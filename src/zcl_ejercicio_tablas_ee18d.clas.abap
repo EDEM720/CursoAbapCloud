@@ -11,7 +11,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_ejercicio_tablas_ee18d IMPLEMENTATION.
+CLASS ZCL_EJERCICIO_TABLAS_EE18D IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 
     DATA lt_vuelo TYPE STANDARD TABLE OF /dmo/flight.
@@ -78,5 +80,4 @@ CLASS zcl_ejercicio_tablas_ee18d IMPLEMENTATION.
     out->write( data = lt_simulated_flights name = `Despues / Modify` ).
 
   ENDMETHOD.
-
 ENDCLASS.

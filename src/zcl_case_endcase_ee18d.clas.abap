@@ -11,7 +11,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_case_endcase_ee18d IMPLEMENTATION.
+CLASS ZCL_CASE_ENDCASE_EE18D IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 
 *    DATA(lv_cliente) = cl_abap_random_int=>create( seed = cl_abap_random=>seed(  )
@@ -113,5 +115,4 @@ CLASS zcl_case_endcase_ee18d IMPLEMENTATION.
 
 
   ENDMETHOD.
-
 ENDCLASS.

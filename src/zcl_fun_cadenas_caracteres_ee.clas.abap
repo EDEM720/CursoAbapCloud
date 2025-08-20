@@ -12,7 +12,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_fun_cadenas_caracteres_ee IMPLEMENTATION.
+CLASS ZCL_FUN_CADENAS_CARACTERES_EE IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 
     DATA: lv_string TYPE string VALUE '¡EXPERIS! Welcome to ABAP Cloud Master',
@@ -256,5 +258,4 @@ out->write( lv_insert ).
 
 
             ENDMETHOD.
-
 ENDCLASS.

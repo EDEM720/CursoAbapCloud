@@ -11,7 +11,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_estructuras_ee18d IMPLEMENTATION.
+CLASS ZCL_ESTRUCTURAS_EE18D IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 
     TRY.
@@ -27,5 +29,4 @@ CLASS zcl_estructuras_ee18d IMPLEMENTATION.
 
 
   ENDMETHOD.
-
 ENDCLASS.

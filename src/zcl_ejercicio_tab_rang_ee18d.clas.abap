@@ -11,7 +11,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_ejercicio_tab_rang_ee18d IMPLEMENTATION.
+CLASS ZCL_EJERCICIO_TAB_RANG_EE18D IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 *Crea un programa que muestre solo los vuelos cuya fecha (flight_date) esté dentro de un rango de fechas específico, usando tablas de rangos.
 *Pasos que debe cumplir:
@@ -39,5 +41,4 @@ CLASS zcl_ejercicio_tab_rang_ee18d IMPLEMENTATION.
       out->write( |Carrier: { ls_flight-carrier_id }  Conn: { ls_flight-connection_id }  Fecha: { ls_flight-flight_date }| ).
     ENDLOOP.
   ENDMETHOD.
-
 ENDCLASS.

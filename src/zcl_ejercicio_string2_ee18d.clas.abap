@@ -11,7 +11,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_ejercicio_string2_ee18d IMPLEMENTATION.
+CLASS ZCL_EJERCICIO_STRING2_EE18D IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 *Ejercicio:
 *1-Extraer de la siguiente variable   DATA(lv_string) = 'danielFernando Pedro ramonSergio’.   losdistintos nombres que hay su interior y almacenar cada nombre en variables independientes.
@@ -127,5 +129,4 @@ CLASS zcl_ejercicio_string2_ee18d IMPLEMENTATION.
 
 
   ENDMETHOD.
-
 ENDCLASS.
