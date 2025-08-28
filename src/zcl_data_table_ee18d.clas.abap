@@ -20,7 +20,7 @@ CLASS zcl_data_table_ee18d IMPLEMENTATION.
     MODIFY ztab_db_ee18d FROM TABLE @(
       VALUE #(
         ( mandt         = '100'
-          id            = '00000001'
+          id            = '001'
           first_name    = 'Laura'
           last_name     = 'Martinez'
           email         = 'lauram@example.com'
@@ -29,7 +29,7 @@ CLASS zcl_data_table_ee18d IMPLEMENTATION.
           currency_code = 'EUR' )
 
         ( mandt         = '100'
-          id            = '00000002'
+          id            = '002'
           first_name    = 'Mario'
           last_name     = 'Martinez'
           email         = 'marion@example.com'
@@ -38,7 +38,7 @@ CLASS zcl_data_table_ee18d IMPLEMENTATION.
           currency_code = 'EUR' )
 
         ( mandt         = '100'
-          id            = '00000003'
+          id            = '003'
           first_name    = 'Daniela'
           last_name     = 'Linares'
           email         = 'daniela@example.com'
@@ -47,7 +47,7 @@ CLASS zcl_data_table_ee18d IMPLEMENTATION.
           currency_code = 'EUR' )
 
         ( mandt         = '100'
-          id            = '00000004'
+          id            = '004'
           first_name    = 'Karol'
           last_name     = 'Pérez'
           email         = 'kperez@example.com'
@@ -56,7 +56,7 @@ CLASS zcl_data_table_ee18d IMPLEMENTATION.
           currency_code = 'USD' )
 
            ( mandt         = '100'
-          id            = '00000005'
+          id            = '005'
           first_name    = 'Mario'
           last_name     = 'Pérez'
           email         = 'kperez@example.com'

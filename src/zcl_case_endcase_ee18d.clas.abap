@@ -11,7 +11,7 @@ ENDCLASS.
 
 
 
-CLASS ZCL_CASE_ENDCASE_EE18D IMPLEMENTATION.
+CLASS zcl_case_endcase_ee18d IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
@@ -112,7 +112,10 @@ CLASS ZCL_CASE_ENDCASE_EE18D IMPLEMENTATION.
 *        out->write( lv_nombre ).
 *        out->write( 'el cliente no se ha registrado' ).
 *    ENDCASE.
-
-
+    lv_num1 = 3.
+    IF lv_num1 IS INITIAL.
+    ELSE.
+    ENDIF.
+    out->write( lv_num1 ).
   ENDMETHOD.
 ENDCLASS.

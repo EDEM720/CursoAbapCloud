@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>ZCL_TEXTOS_EE18D</CLSNAME>
+    <CLSNAME>ZCL_DICCIONARIO_EE18</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>Clase para textos</DESCRIPT>
+    <DESCRIPT>Clase para trabajar los elementos de dato y dominios</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>
