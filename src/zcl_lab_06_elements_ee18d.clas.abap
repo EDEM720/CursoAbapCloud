@@ -19,12 +19,15 @@ CLASS zcl_lab_06_elements_ee18d DEFINITION
 *referenciado al tipo definido y realiza una llamada al método desde la
 *misma clase de ejecución
     METHODS set_object IMPORTING is_object TYPE ty_elem_objects.
+
+    class-DATA var1 type string.
 *Constantes en clases
 *Crea cuatro constantes en la clase definida en la anterior actividad y escribe
-    CONSTANTS: lc_country   TYPE string VALUE 'jola',
+    CONSTANTS: lc_country   TYPE string VALUE 'Paname',
                lc_name      TYPE string VALUE 'Pedro',
                lc_last_name TYPE string VALUE 'Perdono',
                lc_date      TYPE d VALUE '20250908'.
+
 
   PROTECTED SECTION.
   PRIVATE SECTION.
